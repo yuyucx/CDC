@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(202, 221, 238);
+}
+
+.cabecalho {
+    padding: 2% 0% 10%;
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu_links{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(92, 177, 177);
+    text-decoration: none;
+    padding-left: 25px; /*coloca um espaço a direita*/
+    
+}
+
+/* hover: possibilita um elemento ter o seu estilo alterado através da ação do usuário, quando o próprio passa o cursor do mouse sobre o elemento*/
+#Inicio:hover {
+    color: #780000;
+    transition: 1s;
+    opacity: 0.9;
+}
+
+.apresentacao{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    visibility: hidden;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.camarila {
+    font-family: 'Dancing Script' , sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: rgb(92, 177, 177);
+    text-decoration: none;
+}
+
+.Historias{
+    padding-left: 2rem;
+    visibility: hidden;
+    gap: 3%;
+}
+
